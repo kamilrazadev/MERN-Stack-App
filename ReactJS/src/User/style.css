@@ -1,0 +1,87 @@
+.buy-btn {
+    width: fit-content;
+    margin: 0;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px;
+    background-color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.emptyTxt {
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: red;
+
+}
+
+.buy-btn:hover {
+    transition: 200ms;
+    scale: 1.05;
+}
+.increase-btn, .decrease-btn{
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid rgb(135, 135, 135); 
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.increase-btn:hover, .decrease-btn:hover {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.increase-btn {
+    padding: 0 6px 1px 6px;
+}
+
+.decrease-btn {
+    padding: 0 9px 2px 9px;
+}
+
+.cart-section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 30px;
+}
+
+.cart-section h3{
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px 0;
+    margin-bottom: 40px;
+}
+
+.cart-section p {
+    margin: 0;
+}
+
+.items-div {
+    display: flex; 
+    justify-content: center; 
+
+    width: 100%;
+}
+
+.items-div > div {
+    width: 45%;
+    padding: 10px 0;
+
+    border-bottom: 1px solid rgb(147, 147, 147);
+}
+
+.items-div span {
+    font-weight: bolder;
+}
+
+.color-blue {
+    color: rgb(0, 30, 255);
+}
