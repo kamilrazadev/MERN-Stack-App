@@ -5,7 +5,7 @@ const { addBrand, deleteBrand, getAllBrands } = require('./Controller')
 
 router.post('/add-brand', addBrand)
 router.get('/get-all-brands', getAllBrands)
-router.delete('/delete-brand/:categoryId', deleteBrand);
+router.delete('/delete-brand/:brandId', deleteBrand);
 
 
 module.exports = router
