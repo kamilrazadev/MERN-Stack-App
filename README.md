@@ -19,6 +19,9 @@ Welcome to the BanoQabil Project. This document provides an overview of the avai
 ### `api/get-all-brands`
 - Description: Get a list of all available brands in the system. Useful for displaying a list of brands to users.
 
+### `api/delete-brand`
+- Description: Delete a specific brand.
+
 ### `api/add-category`
 - Description: Add a new category for organizing brands or products. Include the category name and any additional information.
 
@@ -28,9 +31,15 @@ Welcome to the BanoQabil Project. This document provides an overview of the avai
 ### `api/get-all-category`
 - Description: Retrieve a list of all created categories. Useful for displaying available categories to users.
 
+### `api/delete-category`
+- Description: Delete a specific category.
+  
 ### `api/add-product`
 - Description: Add a new product to the system. Provide product details such as name, description, price, and associated brand/category IDs.
 
 ### `api/get-all-products`
 - Description: Get a list of all available products in the system. Useful for displaying a list of products to users.
+
+### `api/delete-products`
+- Description: Delete a specific product.
 
