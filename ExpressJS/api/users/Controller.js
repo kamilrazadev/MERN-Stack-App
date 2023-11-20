@@ -1,4 +1,4 @@
-    require('dotenv').config();
+require('dotenv').config();
 
 const async = require('hbs/lib/async');
 const User = require('./MOdel');
@@ -8,7 +8,6 @@ const { sign } = require('jsonwebtoken');
 
 const userSignUp = async (req, res) => {
     const {username, password, email } = req.body;
-
     try {
 
         await connect(process.env.MONGO_URL);
